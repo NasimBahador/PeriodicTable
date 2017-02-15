@@ -1,0 +1,114 @@
+*{
+  font-family: sans-serif;
+
+  box-sizing: border-box;
+}
+.container{
+  width: 970px;
+  height: 500px;
+  padding: 10px;
+}
+.groupPer{
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: top;
+  color: red;
+  font-size: 10px;
+  text-align: center;
+  margin: 2px;
+  padding-top: 13px;
+}
+.elements, .metalloid, .postTransionMetals{
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 9px;
+  text-align: center;
+  border: 1px solid black;
+  padding-top: 2px;
+  margin: 2px;
+}
+.star{
+  width: 5px;
+  height: 80px;
+  margin-top: 270px;
+  display: inline-block;
+}
+.star span{
+  color: red;
+  margin-top: 12px;
+}
+.star span:nth-child(2){
+  margin-top: 24px;
+}
+span{
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(25, 19, 182);
+  display: block;
+}
+.metals{
+  height: 490px;
+  height: auto;
+  width: 141px;
+  display: inline-block;
+  vertical-align: top;
+}
+.metals .elements{
+  background-color: rgb(104, 155, 253);
+}
+.metals p:nth-child(5){
+  margin-right: 8px;
+}
+.transitionmetals{
+  height: 380px;
+  width: 480px;
+  display: inline-block;
+  vertical-align: top;
+}
+ul{
+  padding: 0;
+}
+.transitionmetals ul:first-child{
+  margin-top: 0;
+  margin-bottom: 133px;
+}
+.transitionmetals .elements{
+  background-color: rgb(253, 154, 152);
+}
+.metalloid{
+  background-color: rgb(255, 127, 39);
+}
+.postTransionMetals{
+  background-color: rgb(153, 217,234);
+}
+.non-metals{
+  height: 380px;
+  width: 290px;
+  display: inline-block;
+  vertical-align: top;
+}
+.non-metals div:nth-child(7){
+  margin-left: 244px;
+}
+.non-metals .elements{
+  background-color: rgb(253, 203, 0);
+}
+.lanAct{
+  height: 100px;
+  width: 950px;
+
+}
+.lanAct ul li:first-child{
+  margin-left: 60px;
+  margin-right: 51px;
+}
+.lanAct ul li:nth-child(16){
+  margin-left: 60px;
+  margin-right: 51px;
+}
+.lanAct .elements{
+  background-color: rgb(31, 202, 33);
+}
